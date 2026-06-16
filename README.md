@@ -4,7 +4,7 @@ An automated, algorithmic trading execution engine that connects to the OANDA v2
 
 ## 🚀 System Architecture & Flow
 
-The bot operates on a continuous execution loop using a decoupled design to safely manage data processing and order dispatching:
+This code operates on a continuous execution loop using a decoupled design to safely manage data processing and order dispatching:
 
 1. **Data Ingestion Module:** Authenticates securely via environment variables to pull real-time midpoint candle historical data sets from OANDA.
 2. **Strategy Analytics Engine:** Processes historical dataframes to calculate daily Pivot Points, Resistance (R1), and Support (S1) boundaries. It dynamically replicates programmatic Pine Script crossover/crossunder functions.
