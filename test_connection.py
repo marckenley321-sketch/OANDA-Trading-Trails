@@ -2,8 +2,8 @@ import oandapyV20
 import oandapyV20.endpoints.accounts as accounts
 
 # 1.  credentials
-ACCESS_TOKEN = "db3929e7cd5160f21964aeeebc9a4865-6daccc3e99178f3aad941715be2c73ba"
-ACCOUNT_ID = "101-001-39314361-001"
+ACCESS_TOKEN = "your_token_here"
+ACCOUNT_ID = "your_account_id_here"
 
 # 2. Connect to the practice environment
 client = oandapyV20.API(access_token=ACCESS_TOKEN, environment="practice")
