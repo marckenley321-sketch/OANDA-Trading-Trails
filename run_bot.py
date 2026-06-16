@@ -19,8 +19,8 @@ from oandapyV20.contrib.requests import MarketOrderRequest, TakeProfitDetails, S
 import pandas as pd
 
 # CONFIGURATION
-ACCESS_TOKEN = "4f032e6d36f9239413e3ec074f77bb23-fff7bf367607aa4b9403e0781e47d1ba"
-ACCOUNT_ID = "101-001-39314361-001"
+ACCESS_TOKEN = "your_token_here"
+ACCOUNT_ID = "your_account_id_here"
 INSTRUMENT = "NAS100_USD"
 GRANULARITY = "M30" 
 LOOP_INTERVAL = 60   # seconds
