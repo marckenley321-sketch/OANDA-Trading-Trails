@@ -1,4 +1,4 @@
-# NASDAQ-100 Automated Pivot Point Trading Bot
+# Automated Pivot Point Trading Bot
 
 An automated, algorithmic trading execution engine that connects to the OANDA v20 REST API. This system translates intraday technical indicators into live order execution payloads, engineered specifically for index CFDs (`NAS100_USD`).
 
